@@ -10,7 +10,7 @@
   <Identity
     Name="e80dffb7-7666-4237-839b-4b88b574c3e5"
     Publisher="CN=mikefra"
-    Version="1.0.6.0" />
+    Version="1.0.8.0" />
 
   <Properties>
     <DisplayName>App19 (Package)</DisplayName>
@@ -20,7 +20,7 @@
 
   <Dependencies>
     <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-	<win32dependencies:ExternalDependency Name="Microsoft.EdgeWebView2Runtime" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" MinVersion="1.1.1.1" Optional="true"/>
+	<win32dependencies:ExternalDependency Name="Microsoft.WebView2" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" MinVersion="1.1.1.1" Optional="true"/>
   </Dependencies>
 	
 	<Resources>
